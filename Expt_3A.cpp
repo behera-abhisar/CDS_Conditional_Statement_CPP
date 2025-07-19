@@ -1,0 +1,31 @@
+// Find whether a given number is postive or negative
+// Abhisar Behera
+// 24070123002
+// Experiment 03(A)
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a;
+
+    cout << "Enter an integer: ";
+    cin >> a;
+
+    if (a > 0)
+    {
+        cout << a << " is a positive value" << endl;
+    }
+    else if (a < 0)
+    {
+        cout << a << " is a negative value" << endl;
+    }
+    else
+    {
+        cout << a << " is neither negative nor positive" << endl;
+    }
+
+    return 0;
+}

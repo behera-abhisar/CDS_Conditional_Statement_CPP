@@ -1,0 +1,47 @@
+// Find out the quadrant to which the given x and y points belong
+// Abhisar Behera
+// 24070123002
+// Experiment 03(C)
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x, y;
+
+    cout << "Enter the coordinates as x and y (separated by space): ";
+    cin >> x >> y;
+
+    if (x > 0 && y > 0)
+    {
+        cout << "The point (" << x << ", " << y << ") belongs to the 1st quadrant" << endl;
+    }
+    else if (x < 0 && y > 0)
+    {
+        cout << "The point (" << x << ", " << y << ") belongs to the 2nd quadrant" << endl;
+    }
+    else if (x < 0 && y < 0)
+    {
+        cout << "The point (" << x << ", " << y << ") belongs to the 3rd quadrant" << endl;
+    }
+    else if (x > 0 && y < 0)
+    {
+        cout << "The point (" << x << ", " << y << ") belongs to the 4th quadrant" << endl;
+    }
+    else if (x == 0 && (y > 0 || y < 0))
+    {
+        cout << "The point lies on the y-axis" << endl;
+    }
+    else if ((x > 0 || x < 0) && y == 0)
+    {
+        cout << "The point lies on the x-axis" << endl;
+    }
+    else
+    {
+        cout << "The point is at the origin" << endl;
+    }
+
+    return 0;
+}
