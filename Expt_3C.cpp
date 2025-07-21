@@ -45,3 +45,19 @@ int main()
 
     return 0;
 }
+
+/* Output
+
+Enter the coordinates as x and y (separated by space): 3 2
+The point (3, 2) belongs to the 1st quadrant
+
+Enter the coordinates as x and y (separated by space): -3 2
+The point (-3, 2) belongs to the 2nd quadrant
+
+Enter the coordinates as x and y (separated by space): -3 -2
+The point (-3, -2) belongs to the 3rd quadrant
+
+Enter the coordinates as x and y (separated by space): 3 -2
+The point (3, -2) belongs to the 4th quadrant
+
+*/
