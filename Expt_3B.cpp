@@ -51,3 +51,10 @@ int main()
 
     return 0;
 }
+
+/* Output
+
+Enter the marks of 5 subjects (separated by space): 92 95 86 90 88
+A+ grade
+
+*/
