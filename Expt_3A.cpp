@@ -29,3 +29,13 @@ int main()
 
     return 0;
 }
+
+/* Output
+
+Enter an integer: 5
+5 is a positive value
+
+Enter an integer: -5
+-5 is a negative value
+
+*/
