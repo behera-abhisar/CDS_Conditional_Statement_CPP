@@ -30,7 +30,7 @@ This simple decision-making structure helps in understanding:
 5. Check:
    - If number > 0 → print "positive"
    - Else if number < 0 → print "negative"
-   - Else → print "neither positive nor negative"
+   - Else print "neither positive nor negative"
 6. End
 
 ## CONCLUSION
@@ -118,7 +118,7 @@ This experiment demonstrates:
    - Else if x > 0 and y < 0 → print "4th Quadrant"
    - Else if x == 0 and y ≠ 0 → print "Y-axis"
    - Else if x ≠ 0 and y == 0 → print "X-axis"
-   - Else → print "Origin"  
+   - Else print "Origin"  
 6. End
 
 ## CONCLUSION
