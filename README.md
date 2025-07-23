@@ -106,7 +106,7 @@ This experiment demonstrates:
 - Decision-making using `if`, `else if`, and `else` constructs
 - Handling floating-point inputs and comparing them correctly
 
-## ALGORITHM
+### ALGORITHM
 1. Start  
 2. Declare two float variables `x` and `y`  
 3. Prompt the user to enter values of `x` and `y`  
